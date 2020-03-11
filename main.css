@@ -1,0 +1,110 @@
+body,html
+{
+    background-color: #381c2a;
+}
+h1
+{
+    color: whitesmoke;
+}
+.container
+{   
+    margin: 0 auto;
+    background-color: #3c3b5f;
+    font-family: cursive;
+    width: 600px;
+    padding: 10px 0 5px 5px;
+}
+
+.container input
+{
+    padding: 2px 0 0 5px;
+    border: none;
+    border-radius: 3px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.container label
+{
+    padding: 0 10px 10px 10px;
+}
+.container input[id = "note"]
+{
+    height: 50px;
+    width: 300px;
+    text-align: start;
+    transition: all 1s;
+}
+
+.container input[id = "note"]:focus
+{
+    height: 60px;
+    width: 350px;
+}
+
+.container input[type="submit"]
+{
+    background-color: #381c2a;
+    border-radius: 5px;
+    color: whitesmoke;
+    transition: all .9s;
+    height: 50px;
+    width: 75px;
+}
+
+.container input[type="submit"]:hover
+{
+    background-color: #f06553;
+    height: 60px;
+    width: 100px;
+}
+
+.container input[type="submit"]:focus
+{
+    transform: rotateZ(1080deg);
+}
+
+.container input[type= "button"]
+{
+    background-color: #381c2a;
+    border-radius: 5px;
+    color: whitesmoke;
+    transition: all .9s;
+    height: 50px;
+    width: 75px;
+}
+.container input[type="button"]:hover
+{
+    background-color: #f06553;
+    height: 60px;
+    width: 100px;
+}
+.container input[type = "button"]:focus
+{
+    transform: rotateZ(1080deg);
+
+}
+.hidden
+{
+    display: none;
+}
+
+#notas_tabla
+{
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: cursive;
+    color: lightgray;
+    background-color: #3c3b5f;
+    border: solid;
+
+}
+#notas_tabla th
+{
+    color: whitesmoke;
+    border-style: dotted;
+}
+#notas_tabla tr td
+{
+    border-style: solid;
+}

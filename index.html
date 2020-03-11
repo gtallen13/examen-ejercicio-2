@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perfect Notes</title>
+        <meta charset="UTF-8">
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class = "container">
+            <h1>Apunta algo que quieras recordar :)</h1>
+            <label for = "categoria">Categoria</label>
+            <input type = "text" id = "categoria" placeholder= "Categoria">
+            <br>
+            <label for = "title">Titulo</label>
+            <input type="text" id = "title" placeholder = "Idea Revolucionaria">
+            <br>
+            <label for = "note">Notas</label>
+            <input type = "text" id = "note" placeholder = "1) Comprar baleadas para la bajona">
+            <br>
+            <input type="submit" id = "btn_guardar" value="Guardar">
+            <input type = "button" id = "btn_consultar" value="Ver Notas">
+        </div>
+        <table id = "notas_tabla">
+
+        </table>
+        
+        <script src="notes.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "examen-ejercicio-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtallen13/examen-ejercicio-2.git"
+  },
+  "author": "Thomas Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtallen13/examen-ejercicio-2/issues"
+  },
+  "homepage": "https://github.com/gtallen13/examen-ejercicio-2#readme",
+  "devDependencies": {
+    "electron": "^8.1.1"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
